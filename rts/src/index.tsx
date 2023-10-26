@@ -1,4 +1,4 @@
-import { ReactDOM } from "react-dom";
+import { ReactDOM } from 'react-dom';
 
 const App = () => {
   return <div>
@@ -8,5 +8,5 @@ const App = () => {
 
 ReactDOM.render(
   <App />,
-  document.querySelector('root')
+  document.querySelector('#root')
 );
